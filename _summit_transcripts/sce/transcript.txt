@@ -1,0 +1,97 @@
+and David's.
+So we start off saying there's three components to an SCE,
+and then we listed out five different components.
+So the first one was the IDE, there's
+file and version management, data and access, the governance,
+and then the actual compute.
+In terms of scope, I don't think we had an agreed scope for what
+actually is in an SCE.
+Historically, that might be defined
+by department structure, and it seemed
+it was kind of a common theme that in the legacy world,
+you had an SCE for GXP work and an SCE for everything else.
+And it seemed most companies want to have
+a single SCE going forwards.
+We talked a little bit about vendors
+and how some vendors kind of promise to package everything
+together into an ecosystem.
+But people tend to be quite a little bit afraid of that
+because of vendor lock-in.
+And also, there's often missing integrations.
+And I think we were hypothesizing
+some of those are strategic to kind of force
+you to stay within the ecosystem.
+We, yeah, there are a couple of platforms specifically
+called out for that.
+And I think one comment that was made
+is there's also that kind of concern
+around the total cost of ownership.
+So if you have to string together
+a whole bunch of different vendors to build your SCE,
+you kind of start ballooning the costs.
+And there's overlap between the different vendor products.
+And at least in the modern SCEs, there's
+often really diverse users in there,
+like PK, Biostat, Stats Programming, and other groups
+all on the same platform.
+Validation takes a long time.
+I think my own company seemed to be longest at three months
+to validate the SCE.
+But it seemed it was always a kind of a slow process.
+And the test suites themselves add a lot of burden
+just to maintain those because you
+have to update the test suites whenever something
+changes in the platform.
+There's a bit of a debate whether the IDE should
+be part of the validation environment
+or should it be kept outside.
+So the IDE is kind of repeated across
+as a layer on top of your validated containers.
+And there was a discussion also on,
+do we validate a system or a process?
+And I think the best practice was to qualify the systems
+and focus validation just on the process.
+A few companies mentioned Python was coming in.
+So this is in the clinical reporting space,
+usually for transformations.
+How to validate Python is a challenge, though,
+because it doesn't have a standardized documentation
+and testing framework like R. I think one company mentioned
+that they have an opinionated list of R packages.
+So you can't just get any package validated.
+They tried to put some governance on what
+are the packages they're validating.
+Parquet seems to have replaced SAS7bdat
+as the data format within modern SCEs.
+For environment management, either three or six months
+seems to be a common window to update the base environments.
+A couple of companies decoupled the R package
+from the environment, but that doesn't seem to be the norm.
+One company mentioned that they have a tool.
+So if the users are kind of interactively
+modifying their environments, it can flag whether that
+environment is one of the managed ones
+for a production run and could also
+tell if it was an upcoming planned environment,
+which I thought was a cool thing to open source
+if that company was interested.
+And it was really important to think about
+consistency of environments.
+So if you have a container in the SCE,
+the Shiny app should also be able to access that container.
+The HPC should be able to access that container and the like.
+And the last two topics, one of them was
+Git for version control.
+It seemed that was the direction most companies are going in,
+but we really had to acknowledge
+there was a change management issue there
+with the learning curve.
+And we discussed some of the complications
+around data access, particularly in Shiny.
+So kind of passing through the viewer
+of the application's data access.
+And there was mention of a couple of technologies to help.
+One was Denodo, and also AWS's data zone
+as a way of kind of putting a middle layer
+to help manage that.
+Thank you.

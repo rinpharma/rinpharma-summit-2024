@@ -1,0 +1,115 @@
+very much a Shiny-centric kind of spin to our validation
+discussion, where we had some interesting use cases about how
+Shiny, of course, you can set a lot of inputs
+and make dynamic changes in your UI of whatever
+table or plot you're making.
+But then when you want to actually validate
+the results of those selections, there
+were some interesting cases where
+you might use a different even language in and of itself
+to do that, such as SAS, to look at how those outputs are
+being generated.
+So that was an interesting idea I never really thought about.
+But it also underscored the importance of,
+it's one thing just to do the business logic
+kind of validation.
+I talked about my morning session.
+But you do need that kind of user-centric, dynamic look
+at what outputs you're generating
+and making sure you're on track with validating those.
+So I think there's some opportunity
+to learn from each other on that side of it, too.
+And then, actually, you, Phil, you
+had a great comment about the number of conferences,
+some of the stigma that R has is a, quote unquote,
+lack of backward compatibility, which I personally
+wonder where that's coming from, especially
+what BASE are, because they are very rigid to changing.
+But there are, obviously, things you
+need to consider with how you manage,
+say, your package versioning and documenting
+whenever big changes are occurring there, too.
+And then trying to think back on whatever parts we talked about.
+I think we talked about ShinyTest.
+Oh, yeah.
+And we also talked about ways to do testing in Shiny,
+specifically with ShinyTest, too.
+And there was some interesting new tooling
+that's coming out from our friends at the Taurus,
+it sounds like, coming up very soon with augmenting
+that with automated reporting and screenshots
+that we're going to be eager to see as we go forward
+with that side of it, too.
+One last thing, we talked about ShinyMeta and Teal.
+Yep.
+And then, yeah, exactly.
+So then Teal came up quite a bit, as we often
+see, that's a great use case to get buy-in from an organization
+to leverage Shiny in the clinical area.
+But then you think about how they
+are approaching creating those reproducible scripts
+that you can get to, in essence, carry out
+what you did in the Teal app.
+And they went away from the ShinyMeta route
+that, Rosie, who had been at our farm before,
+that package from Posit actually was
+born from conversations with some of us
+with the Shiny team back then.
+But it never really got as much adoption
+as I think maybe it was anticipated.
+So we are interested to see the way Teal conducts this,
+if that's a pattern that ends up being
+more standard in the future, always
+learning from what's working well there
+and maybe where that can go in the validation discussion
+when you think about teams that say, oh, you
+did that great analysis in that app,
+but I need to be able to run that in a month from now
+or even a year from now, maybe to answer a question.
+So we do see some intriguing ideas
+that Teal has pioneered with getting those scripts out there.
+And last, but certainly not least,
+there were some questions about how to handle larger data
+in apps.
+And myself and others were quick to literally mouth off.
+DuckDB is a very promising approach
+so that you can have that within that environment database
+feature, but yet you're not overhead of a Postgres
+or even NoSQL database that often came up, too.
+But we think DuckDB and Shiny is a great combination
+for big data analytics that I think
+will play nicely in Noveltoon in the future.
+
+So we were talking mostly about package validation during both validation roundtables, and there
+are companies that they already built both the exploratory and the validated GXP environments,
+and there are a lot of companies that are just building the GXP environments, and the cycles and
+the processes vary, and there could be an approach where the validation cycle takes,
+that happens every six or even every 12 months. However, there is one company that takes more
+agile and fluid approach where the package validation can be completed in just a few hours,
+and I think that demonstrates that both speed and compliance can coexist in a proper process.
+And we discussed that managing the infrastructure actually is a challenge with a lot of packages
+and a lot of images being created, and that a good approach that can be taken in the future is to
+create a base image that can be specific per project or specific for a therapeutic area,
+and this is a container, and Kubernetes seem to be the standard for managing those.
+And however, container sizing continues to present a technical challenge.
+What else? We also discussed that the transparency for our packages packs,
+that this is actually a positive thing, because with SAS you don't really know,
+you only know about your own bag that you submitted, but you don't know about the other
+bags, and they for sure exist, and with the open source you get access, you see what happens,
+and you see how those bags are resolved, so we thought that this is actually a good thing.
+And we also agreed that internal packages, they should follow the same process as external packages,
+so there needs to be testing, and that actually testing, the tester should be a separate person
+than the developer. And we also covered a bit the topic of testing, thank you, testing the GenAI
+outputs, and we concluded that basically there needs to be a code that is reproducible,
+and this needs to be tested, and this needs to be validated as well. And I think one more thing
+that was quite interesting is that we don't have a standard what the validated package means,
+and that every company basically defines their own way what it means that the package is validated.
+And regarding also the GenAI principles and validating the outputs, we thought that right
+now, basically we have to decide on principles regarding the GenAI, because right now we don't
+state that, for example, the documentation was generated by the GenAI, and we thought that this
+would be valuable, because this gives additional context, and it can mean that you also would pay
+additional extra attention to that part, because you know that this was not generated by the human.
+And last but not least, we discussed whether AI bot to help evaluate if the test is good,
+it can be something useful, and it can be used as an extra pair of eyes. There were mixed opinions
+that yes, this could be useful, however, this can also make the reviewers a bit mindless,
+because they would rely too much on the advice and the output from the bot. Thank you.

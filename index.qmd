@@ -1,0 +1,202 @@
+---
+title: "R/Pharma Summit"
+subtitle: "In-person event • Monday, September 15, 2025 • Atlanta, GA"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+    number-sections: false
+    css: styles.css
+---
+
+# Background
+
+In 2018 and 2019, **R in Pharma** was in-person at Harvard University and focused on opportunities for direct interaction with speakers and guests.  
+These relationships and connections have grown into many exciting areas of Open Source drug development.  
+
+- In **2023** we partnered with *Posit*, hosting an in-person session at posit::conf(2023) in Chicago.  
+- In **2024**, the session continued at posit::conf(2024) in Seattle.  
+- We’re thrilled to bring this back at **posit::conf(2025)** in Atlanta! 🎉
+
+---
+
+Over the last five years we’ve seen an explosive growth in the use of R and other open source technologies across drug development, with an increasing focus on **pan-company collaboration**.  
+
+The R/Pharma Roundtable Summit provides an **open, collaborative, and inclusive environment** to:
+
+- Share learnings  
+- Understand common themes across our industry  
+- Establish collaboration opportunities  
+
+The focus is to foster **in-person discussions** about key items such as *reproducibility* and *submissions*, much like the original Harvard events.  
+
+> 🔗 Review the 2023–2024 roundtable summaries here:  
+> [rinpharma.github.io/roundtables](https://rinpharma.github.io/roundtables/)
+
+---
+
+## Call for Input
+
+::: callout-note
+**You can contribute to the discussion about the final agenda!**  
+Join the GitHub discussions here:  
+👉 [rinpharma-summit-2025 Discussions](https://github.com/rinpharma/rinpharma-summit-2025/discussions)
+:::
+
+---
+
+# Location
+
+::: callout-important
+**Hyatt Regency Atlanta**  
+265 Peachtree St NE  
+Atlanta, GA 30303, USA  
+Meeting Room: **Regency VII**  
+
+![Summit Room — Hyatt Regency Atlanta](hyatt_regency.png){fig-align="center" width="80%"}
+
+
+:::
+
+---
+
+# Agenda
+
+::: {.agenda-table}
+| Time          | Chair                  | Description           |
+|---------------|------------------------|-----------------------|
+| **9.15am**    |                        | Intro to day    |
+| **9.30–10am**    | James Black / Orla Doyle / Phil Bowsher    | ROI on Open Source  |
+| **10–10.45am**   | Eric Nantz / Paulo Bargo           | Navigating Quality  |
+| **10.45–11.05am**|                        | Bio-break  |
+| **11:05–12:15pm** | Devin Pastoor / Jeremy Wilfire, Joe Cheng, Eric Nantz     | GenAI Discussion Panel  |
+| **12:15–1:30pm** |                     | Lunch <br> 🍴 *Lunch & Learn sessions:* <br> • Postitron (Thomas Mock) <br> • Validation (R Validation Hub, Doug Kelkhoff)  |
+| **1:30–4pm**  | James + other chairs   | **Round tables** <br> Split into 2 × 1hr sessions with short break between. Attendance is flexible. |
+| **4–4:45pm**  | Round table chairs     | Chairs report back notes, and any planned follow up  |
+| **4:45–5pm**  | Phil Bowsher (Posit)   | Wrap up  |
+| **6–8pm**  | Social Event supported by Wu Consulting   |  at White Oak - Barrel Bar Room<br>270 Peachtree St NW<br>Altanta, GA 30303<br> <a href="https://www.google.com/maps/place/White+Oak/@33.762044,-84.3887842,18z/data=!3m2!4b1!5s0x88f50479a83a3b23:0xcb9524730413b4cb!4m6!3m5!1s0x88f50386ffffffff:0xac38c67e18ddcd05!8m2!3d33.762044!4d-84.3878038!16s%2Fg%2F1hc6s7_v0?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src ="white_oak.png" alt="Map to White Oak" width="200"></a>
+:::
+---
+
+## Roundtables
+
+### 1. AI in Pharma
+##### Chairs: Jeremy Wildfire, Sri Pavan Vemuri, Satish Murthy
+- Best Practices for AI-Assisted R Coding  
+- What would an "AI-friendly" submission look like?  
+- Reimagine open-label trial deliverables with interactive display/AI  
+- Best Practices for AI Integration in Data Workflows  
+- *Create more tables if needed for GenAI*  
+
+### 2. Validation in 2025
+##### Chairs: Olga Mierzwa-Sulima, Eric Nantz, Paulo Bargo
+- Validating Open Source Tools with Stochastic Components  
+- Architectures to provision validated R packages  
+
+### 3. Python for Clinical Study Reports and Submission
+##### Chairs: Yilong Zhang, Jonathan Tisack
+- Medical Devices  
+
+### 4. SCEs in 2025
+##### Chairs: David Thiriot, Phil Bowsher, James Black
+- Open-source infrastructure to complement **openstatsware** and the **pharmaverse**  
+- Expanding the Pharmaverse beyond Clinical Reporting  
+
+### 5. Open-Source Change Management
+##### Chairs: Ning Leng, Nate Mockler
+- From Hacks to Habits — Tools & Tricks That Changed the Game  
+
+### 6. Implementation / Perspectives of CROs
+##### Chairs: Douglas Henry, Steven Tan
+- Expanding the Pharmaverse beyond Clinical Reporting  
+
+# Audience
+
+These round tables are for you if:
+
+- You are an active contributor to the adoption of data science best practices across drug development  
+- You sponsor data science codebases  
+- You are an informatics professional designing and implementing **GxP-conforming** data science platforms  
+- You are interested in cross-pharma collaboration  
+
+---
+
+# Round Table Advisory Board
+
+A mix of 50 people from various pharmaceutical companies, CRO and organization supporting the advancement of open source for drug development and clinical reporting.
+
+---
+
+# Organising Committee
+
+- Phil Bowsher — *Posit*  
+- James Black — *Roche*  
+- Harvey Lieberman — *Novartis*  
+- Katie Igartua — *Tempus*  
+
+This summit is run by [Open Source in Pharma](https://opensourceinpharma.com/), a non-profit aiming to support the use of open source languages in Pharma.
+
+# Roundtable Summaries
+
+During the R/Pharma summit, each roundtable session chair shared a summary of their group's discussion at the conclusion of the event. This year, we recorded the audio of these summaries to local `mp3` audio files, and leveraged the OpenAI `whisper` audio transcription LLM run entirely locally on a computer to generate transcripts of the audio summaries. Lastly, these transcripts were summarized using the Anthropic model within Positron Assistant to create summaries of these transcripts. You can view the summaries and source transcripts of the roundtable sessions below.
+
+## AI in Pharma
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/ai/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/ai/transcript.txt >}}
+:::
+
+## Quality & Validation in 2025
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/quality/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/quality/transcript.txt >}}
+:::
+
+## Python for Clinical Study Reports and Submission
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/python/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/python/transcript.txt >}}
+:::
+
+## SCEs in 2025
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/sce/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/sce/transcript.txt >}}
+:::
+
+## Open-Source Change Management
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/change_management/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/change_management/transcript.txt >}}
+:::
+
+## Implementation / Perspectives of CROs
+
+::: {.callout-note title="Summary" collapse="false"}
+{{< include _summit_transcripts/cro/summary.md >}}
+:::
+
+::: {.callout-note title="Source Transcript" collapse="true"}
+{{< include _summit_transcripts/cro/transcript.txt >}}
+:::

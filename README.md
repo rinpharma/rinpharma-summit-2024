@@ -1,125 +1,117 @@
-# R/Pharma Summit (in-person event)
+# R/Pharma Summit (in-person event Monday, September 15, 2025)
+
+Formatted version available at https://rinpharma.github.io/rinpharma-summit-2025/
 
 ## Background
 
-In 2018 and 2019, R in Pharma was in-person at Harvard University and focused on opportunities for direct interaction with speakers and guests. These relationships and connections have grown into many exciting areas of Open Source drug development. In 2023 we partnered with Posit, hosting an in-person session at posit::conf 2023 in Chicago. We're thrilled to bring this back at posit::conf 2024.
+In 2018 and 2019, **R in Pharma** was in-person at Harvard University and focused on opportunities for direct interaction with speakers and guests.  
+These relationships and connections have grown into many exciting areas of Open Source drug development.  
 
-Over the last 5 years we’ve seen an explosive growth in the use of R and other open source technologies across drug development, with an increasing focus on open source projects and pan-company collaboration. In this 1-day series of roundtables we aim to provide an open, collaborative, and inclusive environment to share learnings, understand common themes across our industry, and establish collaboration opportunities. The focus of the R/Pharma Roundtable Summit is to foster in-person discussions and conversations about key items (reproducibility, submissions etc.) as we did at Harvard.
+- In **2023** we partnered with *Posit*, hosting an in-person session at posit::conf(2023) in Chicago.  
+- In **2024**, the session continued at posit::conf(2024) in Seattle.  
+- We’re thrilled to bring this back at **posit::conf(2025)** in Atlanta! 🎉
 
-Posit and R/Pharma are excited to announce that the R/Pharma Roundtable Summit is returning for posit::conf(2024). Last year, representatives from ~40 companies met in-person to discuss some of the most pressing topics pharma is tackling to bring data science to late stage development. We are excited to continue the conversations this year on August 11th in Seattle, WA. The in-person R/Pharma program at posit::conf(2024) will focus on the future of drug development using open source and tailoredfor program leaders and people leading Open Source initiatives. The 2023 review of the Summit (then called 'round-tables') is here: https://rinpharma.github.io/roundtables/
+---
 
-During the 2024 R/Pharma Summit, facilitators will foster in-person discussions and conversations about key items (reproducibility, interactivity, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions.The 2024 advisory board, shaping the agenda and planned actions for the event, spans >10 pharma companies, as well as CROs and academic research centers.
+Over the last five years we’ve seen an explosive growth in the use of R and other open source technologies across drug development, with an increasing focus on **pan-company collaboration**.  
 
-**You can contribute to the discussion about the final agenda via this collection of github discussions**: https://github.com/rinpharma/rinpharma-summit-2024/discussions
+The R/Pharma Roundtable Summit provides an **open, collaborative, and inclusive environment** to:
 
-___
+- Share learnings  
+- Understand common themes across our industry  
+- Establish collaboration opportunities  
+
+The focus is to foster **in-person discussions** about key items such as *reproducibility* and *submissions*, much like the original Harvard events.  
+
+> 🔗 Review the 2023–2024 roundtable summaries here:  
+> [rinpharma.github.io/roundtables](https://rinpharma.github.io/roundtables/)
+
+---
+
+### Call for Input
+
+**You can contribute to the discussion about the final agenda!**  
+Join the GitHub discussions here:  
+👉 [rinpharma-summit-2025 Discussions](https://github.com/rinpharma/rinpharma-summit-2025/discussions)
+
+---
 
 ## Location
 
-> HYATT REGENCY SEATTLE
-> 
-> Elwha B Conference Room (Floor 5)
-> 
-> 808 Howell Street
-> 
-> Seattle, Washington 98101, USA
+**Hyatt Regency Atlanta**  
+265 Peachtree St NE  
+Atlanta, GA 30303, USA  
+Meeting Room: **Regency VII**  
 
-![seattle_room](https://github.com/user-attachments/assets/fb78eb57-acdc-4a8c-a0a1-957076b84901)
-___
+<img src="hyatt_regency.png" alt="Summit Room — Hyatt Regency Atlanta" width="75%">
+
+---
 
 ## Agenda
 
-<markdown-accessiblity-table><table>
-<thead>
-  <tr>
-    <th>Time</th>
-    <th>Chair</th>
-    <th>Description</th>
-  </tr>
-</thead>
-<tbody>
-<tr>
-  <td>8.50am</td>
-  <td>Katie Igartua (Tempus AI)</td>
-  <td>Intro to day</td>
-</tr>
-<tr>
-  <td>9-10am</td>
-  <td>Aaron Clark (Arcus) and Doug Kelkhoff (Roche)</td>
-  <td><strong>Driving Consensus Through Repositories</strong> <br> Following last year's open dialogue about shaping an industry standard repository, we're excited to share what's on the horizon. Through collaborations across the industry and the ecosystem of R repository tools, we're settling on a means of delivering consistent, reproducible quality assessments of packages.</td>
-</tr>
-<tr>
-  <td>10-11am</td>
-  <td>Natalia Andriychuk (Pfizer) and Nicole Jones (Denali)</td>
-  <td><strong>Defining Good Practices and Tracking risk in Interactive Data Products (30 mins context setting, 30 mins panel):</strong><br>Crafting Impactful Interactive Data Products: A Guide to Success by Nicole Jones<br>Assessing and mitigating risk while developing Shiny apps by Natalia Andriychuk<br><strong>Panel discussion:</strong><br>Internalizing/productionalizing shiny apps within organizations with Eric Nantz (Eli Lilly), Becca Krouse (GSK), Sam Parmar (Pfizer)  </td>
-</tr>
-<tr>
-  <td>11-11.15am</td>
-  <td>-</td>
-  <td>Bio-break</td>
-</tr>
-<tr>
-  <td>11.15-12.30pm</td>
-  <td>Katie Igartua (Tempus AI)</td>
-  <td><strong>One Year Later - Reflection on Progress and New Developments</strong>  <br> A year has passed since our last in person meeting where we discussed regulatory validation workflows for R Shiny, integrating LLMS advancements and real-world into drug discovery, challenges of approval for open source workflows within industry and talent recruitment and training. This session aims to get new attendees up to speed while reflecting on conversations from last year's round tables with user stories.</td>
-</tr>
-<tr>
-  <td>12.30-1.30pm</td>
-  <td>-</td>
-  <td>Lunch</td>
-</tr>
-<tr>
-  <td>1.30-4pm</td>
-  <td>James Black (Roche)</td>
-  <td><strong>Round tables</strong> <br> Split into 2 sessions of 1hr with short break between sessions. People are welcome, but do not need to stay at a round table for the full 1 hour.<br>A list of the roundtable topics can be found at <a target="_blank" href="https://iced-cobalt-20e.notion.site/2641e5330a3f4d08ba0c999f1f8950c9?v=a2754a41ef3e42538b32fffc33cb9547">this link</a>. </td>
-</tr>
-<tr>
-  <td>4-4.45pm</td>
-  <td>Round table chairs</td>
-  <td>Chairs report back notes, and any planned follow up</td>
-</tr>
-<tr>
-  <td>4.45-5pm</td>
-  <td>Phil Bowsher (Posit)</td>
-  <td>Wrap up</td>
-</tr>
-<tr>
-  <td>6:30pm-9.00pm</td>
-  <td>Tempus sponsored apero</td>
-  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/rinpharma/rinpharma-summit-2024/assets/2760096/c4ca8802-4881-4250-b8fb-e22cedc48120"><img src="https://github.com/rinpharma/rinpharma-summit-2024/assets/2760096/c4ca8802-4881-4250-b8fb-e22cedc48120" alt="pinebox" style="max-width: 100%;"></a><br>
-<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBOYMDxs--popRdJHJ2KvMKUfip0HgGuNq4ZYSzwwR0uQGug/viewform">RSVP</a> to the R /Pharma Summit Meetup @ The <a target="_blank" href="https://maps.app.goo.gl/aqDAZj6d4XjZJwVCA">Pine Box</a><br> 
-Sunday, August 11th, 2024 @ 6:30PM-9:30PM<br>
-Join other Posit enthusiasts in BioPharma for a social event following the R/Pharma Summit. We'll be meeting at the Pine Box, which is only a 10 minute walk away from the Seattle Hyatt Regency hotel where POSIT::CONF(2024) is taking place.<br>
-<b>Attendance to the R/Pharma Summit not required.</b>
-  </td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
-___
+| Time          | Chair                  | Description           |
+|---------------|------------------------|-----------------------|
+| **8:50am**    |                        | Intro to day    |
+| **9–10am**    | James Black / Orla Doyle / Phil Bowsher    | ROI on Open Source  |
+| **10–11am**   | Eric Nantz / Paulo Bargo           | Navigating Quality  |
+| **11–11:15am**|                        | Bio-break  |
+| **11:15–12:30pm** | Devin Pastoor / Jeremy Wilfire, Joe Cheng, Eric Nantz     | GenAI Discussion Panel  |
+| **12:30–1:30pm** |                     | Lunch <br> 🍴 *Lunch & Learn sessions:* <br> • Postitron (Thomas Mock) <br> • Validation (R Validation Hub, Doug Kelkhoff)  |
+| **1:30–4pm**  | James + other chairs   | **Round tables** <br> Split into 2 × 1hr sessions with short break between. Attendance is flexible. |
+| **4–4:45pm**  | Round table chairs     | Chairs report back notes, and any planned follow up  |
+| **4:45–5pm**  | Phil Bowsher (Posit)   | Wrap up  |
+| **6:30–9pm**  | Social Event sponsored by Wu Consulting   |  at Max Lager's Wood-Fired Grill <br> <a href="https://www.google.com/maps/place/Max+Lager's+Wood-Fired+Grill+%26+Brewery/@33.7633241,-84.3874954,18z/data=!4m14!1m7!3m6!1s0x88f50479f0b45fe9:0x8c53b75958299abd!2sMax+Lager's+Wood-Fired+Grill+%26+Brewery!8m2!3d33.7633384!4d-84.3869351!16s%2Fm%2F01_23gr!3m5!1s0x88f50479f0b45fe9:0x8c53b75958299abd!8m2!3d33.7633384!4d-84.3869351!16s%2Fm%2F01_23gr?entry=ttu&g_ep=EgoyMDI1MDkwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src ="max_lagers_wood_fired_grill.png" alt="Map to Max Lager's" width="200"></a>
+---
+
+### Roundtables
+
+#### 1. AI in Pharma
+##### Chair: Jeremy Wildfire
+- Best Practices for AI-Assisted R Coding  
+- What would an "AI-friendly" submission look like?  
+- Reimagine open-label trial deliverables with interactive display/AI  
+- Best Practices for AI Integration in Data Workflows  
+- *Create more tables if needed for GenAI*  
+
+#### 2. Validation in 2025
+- Validating Open Source Tools with Stochastic Components  
+- Architectures to provision validated R packages  
+
+#### 3. Python for Clinical Study Reports and Submission
+- Medical Devices  
+
+#### 4. SCEs in 2025
+- Open-source infrastructure to complement **openstatsware** and the **pharmaverse**  
+- Expanding the Pharmaverse beyond Clinical Reporting  
+
+#### 5. Open-Source Change Management
+- From Hacks to Habits — Tools & Tricks That Changed the Game  
+
+#### 6. Implementation / Perspectives of CROs
+- Expanding the Pharmaverse beyond Clinical Reporting  
 
 ## Audience
 
 These round tables are for you if:
 
-- You are an active contributor to the adoption of data science best practices across drug development
-- You are a sponsor of data science codebases
-- You are an informatics professional designing and implementing GxP conforming data science platforms 
-- You are interested in cross-pharma collaboration
+- You are an active contributor to the adoption of data science best practices across drug development  
+- You sponsor data science codebases  
+- You are an informatics professional designing and implementing **GxP-conforming** data science platforms  
+- You are interested in cross-pharma collaboration  
 
-___
+---
 
-## Round table advisory board: 
+## Round Table Advisory Board
 
-Ordered alphabetically by company;
+A mix of 50 people from various pharmaceutical companies, CRO and organization supporting the advancement of open source for drug development and clinical reporting.
 
-___
+---
 
-## Organising committee
+## Organising Committee
 
-- Phil Bowsher, Posit
-- James Black, Roche
-- Harvey Lieberman, Novartis
-- Katie Igartua, Tempus
+- Phil Bowsher — *Posit*  
+- James Black — *Roche*  
+- Harvey Lieberman — *Novartis*  
+- Katie Igartua — *Tempus*  
 
-
-
+This summit is run by [Open Source in Pharma](https://opensourceinpharma.com/), a non-profit aiming to support the use of open source languages in Pharma.

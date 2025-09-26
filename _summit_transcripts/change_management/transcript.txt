@@ -1,0 +1,129 @@
+open source change management:
+I think the first thing when it comes to change management
+is the why before we actually talk about the how.
+And I think it's important to keep the perspective
+of change management is about risk.
+And there's a saying that I did not make up
+even though no one at my table had heard about it.
+You can't get, no one has ever gotten fired for buying IBM.
+And that saying means that like,
+if everyone does things a certain way,
+no one's gonna get in trouble if something happens
+with like that way.
+And so you're asking people to change the way
+they do analysis.
+And so management and people who aren't like
+in this room basically see the downsides pretty obviously,
+but then your job as sort of thought leaders
+is to show them the upsides.
+And I think a big one is mentioned stuff
+like collaboration, AI, like I think AI is like oregano,
+everyone wants to sprinkle AI on everything.
+So mission AI and those things,
+and that'll help to make the conversation
+a little bit about like, yes, you see the downsides,
+but moving more towards the upsides.
+I think the R-validation hub is a big, big benefit.
+I think you can show that there is a process,
+you can show stuff like risk metric,
+and that'll sort of help to ameliorate
+some of the concerns about change,
+but it won't eliminate them.
+When it comes to actually making the change,
+I think we talked a little bit about training,
+either buying it or doing it yourself.
+I think one thing to keep in mind
+is that when it comes to training,
+the best training is the training that you do yourself.
+So I think you need to find the right people
+to help make that change.
+I think a big thing about,
+especially open source change management,
+is environment, and I'm talking about like SCE stuff,
+James already solved that, so you're fine,
+but work on your environment,
+make sure that people feel comfortable in that environment,
+especially if there are ways to sort of,
+before you make a big investment,
+do some kind of trials with that.
+For change management, communication is key.
+Make sure you have the right people,
+give the right message.
+I think a lot of people push back
+if you're like, you have to change,
+you have to do it this way now.
+Expect some pushback.
+And then one of the biggest things
+that is a change from closed source analysis to open source
+is a lot of stuff about package issues.
+A lot of companies, they just have like one,
+one single sort of package
+that gets updated every couple of years.
+Obviously, this open source is much more dynamic,
+and so you need to maybe explain a little bit more
+how like software works, because if there's an error,
+it could be that your code is fine,
+but maybe you have a, maybe the version needs to be updated,
+and explaining stuff like packaging,
+and I think a big part of that is containerization,
+either RAM for Docker or something,
+I think that'll make that change process a lot easier.
+
+So we have the, for our roundtable,
+we're talking about open source change management,
+and then we try to tackle that problem
+from the three pillars of change management,
+people, technology, and process.
+And for the people side, we talk about
+to get the momentum started,
+oftentimes we need very specific use cases
+showing that by using our Python,
+we can generate this very complicated tables
+and the graph is very easily.
+And then we talk about that,
+actually grassroot effort can only get us
+to a certain level and at the end of the day,
+we really need kind of top down decisions
+and then those incentives coming from the leadership team
+and also having those messages repeatedly
+like from the leadership team.
+And we see a trend that from mid-size and large companies,
+like there are creation of independent innovation groups.
+So we acknowledge that if like change management
+is a side job of someone's,
+like in complimentary to someone's day job of filing,
+et cetera, it's always getting deprioritized.
+So we see a trend of creating those innovation teams.
+And we talk a little bit about hiring versus training.
+And we talk about for internal training,
+we want to have those just in time training.
+We see many cases that we train people,
+they go back to SAS work and they forgot about the training.
+And it seems like there is a trend that for many companies,
+they start to remove SAS in their job description.
+And we see that people are, for younger generation,
+we are hiring our Python programmers from day zero.
+And then in terms of another thing
+I found very interesting that in terms of people influence,
+we also have some discussion about this is also a good time
+to influence our internal standard group
+because there are many trivial decisions
+in internal standard or limitations
+or historical reasons from like legacy tools
+or legacy technology limitations.
+So it's a good timing to influence them
+and then to kind of like reset the baseline a little bit.
+In terms of technology,
+we spend quite some time talking about Git,
+kind of double click on the conversation this morning.
+Like it's absolutely the foundation of adoption
+of open source languages and also the AI tools.
+In terms of process, we talk about Git again,
+and we also talk about there are also unique opportunity
+for us to rethink about our clinical trial reporting process.
+For example, we see that in some companies,
+like by using Shiny, actually we can reduce number of TLGs
+or even get rid of the generation of static TLF
+for a certain reporting event.
+So I think that there is an opportunity to rethink
+what really makes sense for clinical trial reporting.

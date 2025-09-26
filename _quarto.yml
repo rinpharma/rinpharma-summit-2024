@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "R/Pharma Summit 2025"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3

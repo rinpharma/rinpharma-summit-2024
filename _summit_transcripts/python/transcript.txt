@@ -1,0 +1,50 @@
+So a couple of things, I'm going to start with a question that we had more towards the
+end because what is seen from the table that we were is that there is some heterogeneity
+on the usage of it.
+Some people are actually in the medical device space, some people are in the pharma space
+and for medical devices, a lot of the people that have used Python are engineers and they
+are more familiar to this, which end up becoming very much their standard language for them
+to use, which created an interesting thing.
+It becomes very difficult to manage multiple languages sometimes and in this particular
+case, this company has decided that they are just using Python even though there are some
+challenges in that space.
+We have a couple of different topics that we were discussing. One of them is regarding
+the use cases. So of course for medical devices, the use cases are very different than what's
+in pharma. The kind of data that is coming from devices, large data sets, kind of forces
+the use of Python in a different way. There is also a little bit of a medical device space.
+You're also thinking not only about the data analysis but an actual product that's going
+to be created in the end after the data analysis, which is more difficult to be developed in
+R, in that space.
+But I think that one of the things that drives some of the use cases, especially for pharma,
+is speed, and because of that, a lot of ETLs, maybe machine learning, data engineering is
+really the space where pharma is looking into the usage of Python.
+Of course, another team was validation, that James already mentioned a little bit about
+this. What do we do about validation of Python?
+I think when the R validation hub created the white paper, even though it's an R paper,
+it was meant to be language agnostic. We did put a lot of stuff that was there because
+that's what we were working on, but we talked about it. Should we just make this language
+agnostic at the time? We decided not, but I think the principles are the same.
+Of course, it does raise a lot of different questions because there are assumptions in
+the R validation white paper that we do for R that are a little maybe easier to get from
+evidence perspective. For example, what's a trusted source? And what is a trusted source
+in Python?
+I think that we heard in the table that things coming from Anaconda or maybe PyPy with maybe
+some RSPM may be reasonable, but also that you have to put some scrutiny around this
+because it's not, again, Python is more of a wide west in comparison to R. There's just
+so much more stuff going on and we have to have all that in consideration.
+An interesting comment, the statistics in Python, I mean, packages or libraries that
+are doing statistics, I think that what we heard from one person, one company, is that
+the groundwork to make sure that those statistical analysis is being vetted, it's still a little
+early. It's like R was like eight years back maybe, so there's a little bit of that going
+on and that's in the space for Python. There's some discussion in the validation about the
+use of containers and a couple of other questions that you have that we posed in the end was
+Python and GenAI, so as you see, there's a lot of GenAI, when I talk about GenAI, there's
+a lot of stuff that's going on in Python just because it's a more used language and that
+may be driven or driving some of the, where the languages are going. There is some conversation
+about Python versus R and one thing that R is definitely ahead is the fact that submission
+and regulatory acceptance is already being developed, so no one has really got a Python
+submission yet, as far as I know, and that is groundwork that has to be done. Submission,
+pilot number 10, pilot 15, Eric, pilot 15, Eric, for you, and I guess the other thing
+is really in regards to the limitations that may be in R for certain types of data sets,
+gene data sets, genetic data sets and so forth because of the size of the data. Did
+I, is there something else that I, okay, so that's it. Thank you.

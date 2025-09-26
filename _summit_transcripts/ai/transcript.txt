@@ -1,0 +1,30 @@
+Okay, so we discussed a couple of topics in this. One of them, I'll go one by one,
+the usability where we are currently using. We talked about using it for
+chatbots, for ADM, Adam TLF coding standards, general coding support and
+automation. I think there was somebody who also asked if we could even generate
+specifications from SAPs and study documents so that you could complete
+the loop like, you know, specs as well as code generation. We talked about where we
+are using it in clinical operations. One, I think there's somebody who is using it
+to improve operational efficiency and another person also indicated that they
+are using it for signal detection for safety monitoring. In terms of
+implementation strategy, we wanted to break these problems into manageable
+pipelines, start with POCs and leverage domain knowledge as a key asset.
+You want to take the next one? Thank you. And some of the issues and other barriers
+that were discussed, in terms of the technicality, like data privacy came up a
+lot and how do you handle sensitive clinical data from not, you know, falling
+off? And there was also traceability, repeatability, and how do you control the
+quality? And hallucination of the AI itself was also mentioned. And this other
+aspect of, I guess, in terms of implementation, people trying to wipe
+code into producing a manageable solution which doesn't seem to work. So
+these are some of the technical implementation issues that were
+discussed. In terms of the organizational hurdles, broader implementation like
+management not being on board just because of the habits they are used to
+and the return of investment challenge, validation, repeatability as well. And
+there is also a need for comprehensive user training when especially when
+trying to implement a process change using AI. There's also concerns about job
+displacement due to AI that were mentioned. And finally regulatory and
+compliance like maintaining an audit as well as ensuring complete documentation
+and transparency of pathways. And how do you ensure it's meeting the industry
+quality standards? And finally implementing proper guardrails and
+controls on sensitive data in terms of the regulatory where some of the other
+issues discussed.

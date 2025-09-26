@@ -1,0 +1,127 @@
+/* styles.css — Custom styling for R/Pharma Summit Quarto page */
+
+/* General page style */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2a2a2a;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  color: #1c3f95; /* Deep pharma blue */
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid #1c3f95;
+  padding-bottom: 0.3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-left: 6px solid #1c3f95;
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #333333;
+}
+
+/* Links */
+a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+  color: #023e8a;
+}
+
+/* Callouts (Quarto built-in) */
+.callout {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 0.8em 1em;
+}
+.callout-note {
+  border-left: 6px solid #0077b6;
+}
+.callout-important {
+  border-left: 6px solid #d62828;
+}
+
+/* Agenda table */
+table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+table thead {
+  background-color: #1c3f95;
+  color: white;
+}
+table th, table td {
+  padding: 0.6em 0.8em;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table tbody tr:nth-child(even) {
+  background-color: #f7f9fc;
+}
+
+/* Lists */
+ul {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+ul li {
+  margin-bottom: 0.3em;
+}
+
+/* Horizontal rules */
+hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #1c3f95, #0077b6, #90e0ef);
+  margin: 2em 0;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Agenda table column control */
+.agenda-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.agenda-table table th:nth-child(1),
+.agenda-table table td:nth-child(1) {
+  white-space: nowrap;    /* stop wrapping */
+  min-width: 80px;        /* enough room for long times like "11:15–12:30pm" */
+}
+
+.agenda-table table th:nth-child(2),
+.agenda-table table td:nth-child(2) {
+  width: 25%;             /* chair column gets a reasonable share */
+}
+
+.agenda-table table th:nth-child(3),
+.agenda-table table td:nth-child(3) {
+  width: auto;            /* description takes the rest */
+}
